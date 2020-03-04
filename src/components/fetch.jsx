@@ -1,13 +1,12 @@
 import React from 'react';
-import mongoose from 'mongoose';
-require('dotenv').config()
-mongoose.connect(process.env.DB_HOST, {useNewUrlParser: true, useUnifiedTopology: true});
-console.log(process.env.DB_HOST)
+import './fetch.css';
+// await mongoose.connect(JSON.stringify(process.env.DB_HOST), {useNewUrlParser: true, useUnifiedTopology: true});
+
 
 function Fetch () {
     return(
         <div>
-            <p>this is fetch jsx file</p>
+            <p className="title">this is fetch jsx file</p>
         </div>
     )
 }

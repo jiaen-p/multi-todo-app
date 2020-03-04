@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Fetch from './components/fetch'
-
+require('dotenv').config()
 function App() {
   return (
     <div className="App">
